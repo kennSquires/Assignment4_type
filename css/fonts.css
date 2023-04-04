@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Kayak';
+    src: url('../fonts/20230403193830_backpacker_Kayak/KayakBold.woff') format('woff'),
+        url('KayakBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: "cc-thismanthismonster-var", sans-serif;
+    font-variation-settings: "BITE" 0, "WONK" 0, "CHEW" 0;
+    font-size: 150px;
+
+
+    animation-name: anifeed;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
+}
+
+h2 {
+    font-family: "goodlife-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    padding: 0px;
+
+    animation-name: rainbow;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
+}
+
+h3 {
+    font-family: 'Kayak';
+    font-size: 130px;
+
+    animation-name: anipet;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
+}
+
+h4 {
+    font-family: "cc-thismanthismonster-var", sans-serif;
+    font-variation-settings: "BITE" 10, "WONK" 0, "CHEW" 0;
+    font-size: 80px;
+}

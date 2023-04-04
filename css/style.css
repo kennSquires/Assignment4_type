@@ -1,0 +1,125 @@
+@import 'fonts.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    min-height: 100vh;
+    background: #f4f3ee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+img {
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+}
+
+.header img {
+   width: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: left;
+}
+
+.footer img {
+   width: 100px;
+   margin: 100px;
+}
+
+
+.catone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    align-items: center;
+}
+
+.cattwo {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 0px;
+    align-items: baseline;
+    margin: 150px;
+}
+
+.cursive {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 150px;
+    
+}
+
+.container {
+    text-align: center;
+    margin: 100px;
+}
+
+
+@keyframes anifeed {
+    0%{
+        font-variation-settings: "BITE" 0, "WONK" 0, "CHEW" 0;
+    }
+
+    50% {
+        font-variation-settings: "BITE" 0, "WONK" 0, "CHEW" 2;
+        color: #c1121f;
+    }
+
+    100% {
+        font-variation-settings: "BITE" 0, "WONK" 0, "CHEW" 4;
+        color: #d90429;
+    }
+
+
+}
+
+@keyframes rainbow {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }
+
+  @keyframes anipet {
+    from{
+        color: #ffb703 ;
+    }
+    0%{
+        color: #ffb703;
+    }
+
+    50% {
+        color: #fb8500;
+    }
+
+    100% {
+        color: #c1121f;
+    }
+}
+
+
+
